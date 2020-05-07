@@ -1,0 +1,6 @@
+.circleci/
+.vscode/
+test/
+CHANGELOG*
+CODE_OF_CONDUCT*
+CONTRIBUTING*
