@@ -1,0 +1,17 @@
+{
+  "name": "@toolio/tasks",
+  "version": "0.1.0",
+  "description": "The project manager that lives in the command line.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "keywords": [
+    "toolio"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "dotenv": "^8.2.0"
+  }
+}
