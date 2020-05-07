@@ -1,7 +1,6 @@
 .circleci/
 .vscode/
 test/
-.gitignore
 CHANGELOG*
 CODE_OF_CONDUCT*
 CONTRIBUTING*
