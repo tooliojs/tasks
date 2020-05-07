@@ -20,6 +20,7 @@
   "homepage": "https://github.com/tooliojs/tasks#readme",
   "dependencies": {
     "chalk": "^4.0.0",
-    "dotenv": "^8.2.0"
+    "dotenv": "^8.2.0",
+    "yargs": "^15.3.1"
   }
 }
