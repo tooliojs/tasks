@@ -1,3 +1,7 @@
-const todo = require('../src')
+const tasks = require('../src')
 
-console.log(todo)
+tasks.setConfig({
+    entry: 'tasks.json',
+})
+
+console.log(tasks.new())
