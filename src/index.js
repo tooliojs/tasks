@@ -4,8 +4,9 @@ module.exports = {
     config: require('./config'),
     setConfig: require('./config').set,
     error: require('./error'),
-    query: require('./query'),
-    list: require('./list'),
+    file: require('./file'),
     new: require('./new'),
-    delete: require('./delete')
+    update: require('./update'),
+    delete: require('./delete'),
+    query: require('./query')
 }
