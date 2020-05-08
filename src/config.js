@@ -1,6 +1,6 @@
 const Merge = require('../lib/Merge')
 
-module.exports = {
+module.exports.config = {
     entry: 'tasks.js',
     director: '',
     agent: process.env.TOOLIO_AGENT,
@@ -28,7 +28,9 @@ module.exports = {
         },
         message: {
             'Valid Error Message Required': 'invalid error message given to .error()',
-            'setConfigs(option) Required': 'you tried calling "setConfig()" without any options',
+            'Valid Entry Required': '"entry" file does not exists',
+            'Valid Entry Extension Required': '"entry" file extension is not valid',
+            'setConfig(option) Required': 'you tried calling "setConfig()" without any options',
             'TypeError: chalk[task.config.cli.color] is not a function': 'invalid color given to option "cli.color"',
             'TypeError: chalk[style.all] is not a function': 'invalid color given to option "error.style.color.all"',
             'TypeError: chalk[style.prefix] is not a function': 'invalid color given to option "error.style.color.prefix"',
@@ -38,7 +40,7 @@ module.exports = {
 }
 
 module.exports.set = function(options) {
-    if(!options) this.error('setConfigs(option) Required')
+    if(!options) this.error('setConfig(option) Required')
     this.config = Merge(this.config, options)
     delete options
 }
