@@ -1,8 +1,7 @@
 {
   "name": "@toolio/tasks",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "The project manager that lives in the command line.",
-  "main": "src/index.js",
   "scripts": {
     "test": "node test/index.js"
   },
@@ -22,5 +21,8 @@
     "chalk": "^4.0.0",
     "dotenv": "^8.2.0",
     "yargs": "^15.3.1"
+  },
+  "bin": {
+    "todo": "bin/todo.js"
   }
 }
