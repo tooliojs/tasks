@@ -1,6 +1,6 @@
 # @toolio/tasks
 
-**The project manager that lives in the command line.**
+**The project manager that lives in your project.**
 
 [![CircleCI](https://circleci.com/gh/tooliojs/tasks.svg?style=shield)](https://circleci.com/gh/tooliojs/tasks)
 [![npm (scoped)](https://img.shields.io/npm/v/@toolio/tasks)](https://www.npmjs.com/package/@toolio/tasks)
