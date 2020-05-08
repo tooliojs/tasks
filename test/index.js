@@ -1,7 +1,3 @@
-const tasks = require('../src')
+const task = require('../src')
 
-tasks.setConfig({
-    entry: 'tasks.json',
-})
-
-tasks.new()
+console.log(task.users().set())
