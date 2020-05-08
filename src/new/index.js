@@ -1,5 +1,6 @@
 module.exports = function() {
-    console.log(this)
+    console.log(this.config)
+    console.log(this.file())
 
     process.exit()
 }
