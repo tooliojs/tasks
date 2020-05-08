@@ -4,4 +4,4 @@ tasks.setConfig({
     entry: 'tasks.json',
 })
 
-console.log(tasks.new())
+tasks.new()
