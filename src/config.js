@@ -2,9 +2,7 @@ const Merge = require('../lib/Merge')
 
 module.exports.config = {
     entry: 'tasks.yml',
-    director: '',
     agent: process.env.TOOLIO_AGENT,
-    activeAgents: [],
     cli: {
         color: 'magenta',
         version: require('../package.json').version
