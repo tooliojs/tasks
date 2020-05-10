@@ -3,11 +3,7 @@ const yaml = require('js-yaml')
 const isArray = require('../../lib/IsArray')
 const isObject = require('../../lib/IsObject')
 const chalk = require('chalk')
-
-function query(data, param) {
-    console.log('querying feature coming soon...')
-    return 0
-}
+const query = require('./query')
 
 module.exports = function(q=null) {
     try {
