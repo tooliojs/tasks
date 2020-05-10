@@ -1,6 +1,6 @@
 Use `setConfig()` to overwrite default configs.
 
-```
+```js
 const todo = require('@toolio/tasks')
 
 console.log(todo.config)
