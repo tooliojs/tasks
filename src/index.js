@@ -5,9 +5,6 @@ module.exports = {
     setConfig: require('./config').set,
     error: require('./error'),
     file: require('./file'),
-    users: require('./users'),
-    new: require('./new'),
-    update: require('./update'),
-    delete: require('./delete'),
-    query: require('./query')
+    tasks: require('./tasks')
+    // users: require('./users')
 }
