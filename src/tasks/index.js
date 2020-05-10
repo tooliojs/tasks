@@ -1,3 +1,4 @@
+const fs = require('fs')
 const yaml = require('js-yaml')
 
 function query(data, param) {
