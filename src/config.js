@@ -1,12 +1,12 @@
 const Merge = require('../lib/Merge')
 
 module.exports.config = {
-    entry: 'tasks.js',
+    entry: 'tasks.yml',
     director: '',
     agent: process.env.TOOLIO_AGENT,
     activeAgents: [],
     cli: {
-        color: 'magesnta',
+        color: 'magenta',
         version: require('../package.json').version
     },
     error: {
@@ -30,6 +30,8 @@ module.exports.config = {
             'Valid Error Message Required': 'invalid error message given to .error()',
             'Valid Entry Required': '"entry" file does not exists',
             'Valid Entry Extension Required': '"entry" file extension is not valid',
+            'Valid Entry Data Required:array': '"entry" file should be an array of tasks',
+            'Valid Entry Data Required:object': '"tasks" need to be of type object',
             'setConfig(option) Required': 'you tried calling "setConfig()" without any options',
             'TypeError: chalk[task.config.cli.color] is not a function': 'invalid color given to option "cli.color"',
             'TypeError: chalk[style.all] is not a function': 'invalid color given to option "error.style.color.all"',
