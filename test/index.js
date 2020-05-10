@@ -4,4 +4,4 @@ task.setConfig({
     entry: 'tasks.yml'
 })
 
-console.log(task.tasks('asd'))
+console.log(task)
