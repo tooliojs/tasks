@@ -1,3 +1,7 @@
 const task = require('../src')
 
-console.log(task.users().set())
+task.setConfig({
+    entry: 'tasks.yml'
+})
+
+console.log(task.tasks())
