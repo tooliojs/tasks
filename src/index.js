@@ -7,6 +7,5 @@ module.exports = {
     error: require('./error'),
     file: require('./file'),
     tasks: require('./tasks'),
-    taskSchema: require('./tasks/schema'),
-    new: require('./new')
+    taskSchema: require('./tasks/schema')
 }
