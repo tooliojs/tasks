@@ -1,5 +1,7 @@
 .circleci/
+.github/
 .vscode/
+docs/
 test/
 .env
 CHANGELOG*

@@ -7,6 +7,29 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/tooliojs/tasks/blob/master/LICENSE.md)
 [![Chat](https://img.shields.io/badge/chat-on%20discord-blue.svg)](https://discord.gg/UuNhTFN)
 
+## Install
+```
+npm install @toolio/tasks -g
+```
+
+## Usage
+Create a file called `tasks.yml` in the root directory of your project
+and fill it with at least 1 task.
+```yaml
+- Cleaner Error Messages:
+    description: >
+      It is a long established fact that a reader will 
+      be distracted by the readable content of a page 
+      when looking at its layout. 
+    tags: [new]
+    agent: jaayperez
+```
+
+```
+$ todo ls
+```
+
+
 ## Documentation
 
 Coming soon...
