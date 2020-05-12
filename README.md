@@ -13,6 +13,12 @@ npm install @toolio/tasks -g
 ```
 
 ## Usage
+<!-- Create a `.env` file in the root directory of your project and
+supply a `TOOLIO_AGENT`.
+```
+TOOLIO_AGENT="your_alias"
+``` -->
+
 Create a file called `tasks.yml` in the root directory of your project
 and fill it with at least 1 task.
 ```yaml
@@ -22,7 +28,7 @@ and fill it with at least 1 task.
       be distracted by the readable content of a page 
       when looking at its layout. 
     tags: [new]
-    agent: jaayperez
+    agent: arakilian0
 ```
 
 ```
