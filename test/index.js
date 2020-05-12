@@ -4,4 +4,5 @@ task.setConfig({
     entry: 'tasks.yml'
 })
 
-console.log(task)
+// console.log(task.new("asdasdasd"))
+console.log(task.tasks())
