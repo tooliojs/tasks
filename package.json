@@ -1,6 +1,6 @@
 {
   "name": "@toolio/tasks",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "The project manager that lives in your project.",
   "scripts": {
     "test": "node test/index.js"
